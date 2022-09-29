@@ -106,3 +106,264 @@
 		 </footer>
 			</section>
      </html> 
+     
+     *{
+margin: auto;
+scroll-behavior: smooth;
+font-family: ariel, sans-serif;
+}
+
+#top-header {
+background: black;
+margin: 0;
+font-family: sans-serif;
+font-weight: 400;
+width: 100%;
+height: 120px;
+}
+
+#header-img {
+float: left;
+max-width: 20%; 
+margin-top: 13px; 
+margin-left: 0%;
+background-size: cover;
+height: 85px;
+}
+
+
+.container{
+width: 80%;
+margin: 0 auto;
+height: 95px;
+z-index: 1;
+}
+
+#nav-bar{
+float: right;
+}
+
+nav ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+nav li{
+display: inline-block;
+margin-left: 70px;
+margin-top: 45px;
+}
+
+nav a {
+color: #f6f8fa;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 16px;
+}
+
+nav a:hover{
+color: red;
+}
+
+body{
+background-color: #f6f8fa;
+}
+
+.list{
+margin: 0 auto;
+display: table;
+padding: 15px;
+}
+
+form{
+padding: 10px;
+margin: 35px;
+text-align: center;
+font-weight: 300;
+}
+
+#coghill_fitness{
+font-family: impact, sans-serif; 
+font-size: 30px;
+height: 60px;
+text-transform: uppercase;
+
+}
+
+input{
+width: 30%;
+text-align: center;
+box-shadow: 12px 12px 8px black; 
+}
+
+#email-label{
+
+color: black;
+font-weight: 900;
+padding: 15px;
+margin-bottom: 10px;
+}
+
+
+
+#section-header{
+text-align: center;
+text-transform: uppercase;
+margin-top: 30px;
+padding: 25px;
+padding-bottom: 25px;
+font-size: 22px;
+}
+
+.row {
+  display: flex;
+  width: 65%;
+}
+
+.column {
+  flex: 50%;
+  padding: 23px;
+}
+
+
+.video{
+padding: 25px;
+margin: auto;
+max-width: 450px;
+}
+
+.top-box{
+border: 1px solid grey;
+padding: 10px;
+max-width: 400px;
+width: 300px;
+
+text-align: center;
+background-color: black;
+border-left: 3px solid grey;
+border-right: 3px solid grey;
+border-top: 3px solid grey;
+}
+
+#options{
+max-width: 100%;
+color: #f6f8fa;
+height: 30px;
+max-height: 30px;
+}
+
+#price{
+padding: 10px;
+padding-bottom: 50px;
+max-width: 400px;
+width: 300px;
+border-left: 3px solid grey;
+border-right: 3px solid grey;
+
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+}
+
+#description{
+border-left: 3px solid grey;
+border-right: 3px solid grey;
+padding: 10px;
+max-width: 400px;
+width: 300px;
+height: 100px;
+
+text-align: center;
+text-decoration: none;
+font-weight: 100
+
+}
+
+
+
+.submit{
+display: block;
+margin-top: 30px;
+width: 50%;
+padding: 15px;
+font-size: 15px;
+background: black;
+border: 3px solid #3b3b4f;
+color: #f6f8fa;
+box-shadow: 5px 8px;
+
+}
+
+#button{
+border-left: 3px solid grey;
+border-right: 3px solid grey;
+border-bottom: 3px solid grey;
+color: #f6f8fa;
+
+padding: 10px;
+max-width: 400px;
+width: 300px;
+}
+
+#enter{
+color: #f6f8fa;
+}
+
+#enter:hover{
+color: red;
+}
+
+.shop{
+display: block;
+text-align: center;
+padding-bottom: 35px;
+}
+
+
+.column1 {
+  float: left;
+  width: 33.33%;
+  height: 300px;
+}
+
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  margin-top: 120px;
+  margin-bottom: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 25px; 
+  width: 40%;
+  height: 15px;
+  
+  text-align: right;
+  color: #f6f8fa;
+  background-color: black;
+  
+}
+
+footer a{
+color: #f6f8fa
+}
+
+@media only screen and (max-width: 550px) {
+  .column1 {
+    font-size: 6rem;
+  }
+
+
+
+
+
+
+
+
+
